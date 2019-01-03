@@ -1,0 +1,292 @@
+<!-- HOME PAGE -->
+
+<!-- Begin navbar -->
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand mr-0" href="home.html">
+      <img class="mr-1" src="img/bootstrap-stack.png" alt="" width="30" height="30">
+      My Website
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse ml-5" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="home.html">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="inputs.html">
+            Inputs
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="outputs.html">
+            Outputs
+          </a>
+        </li>
+      </ul>
+
+      <!--<a class="btn btn-light my-2 my-sm-0 nav-link" href="signin.html">Sign out</a>-->
+
+    </div>
+  </nav>
+</header>
+<!-- End navbar -->
+
+<!-- Begin page content -->
+<main role="main" class="container">
+  <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Home</h1>
+  </div>
+
+  <div class="p-md-5 text-white bg-grey">
+    <div class="col-md-6 px-0">
+      <h1 class="display-4 font-italic">Title of My Website</h1>
+      <p class="lead my-3">Some interesting text explaining what this website does.</p>
+      <p class="lead mb-0"><a href="javascript:;" class="text-white font-weight-bold">Continue reading...</a></p>
+    </div>
+  </div>
+</main>
+<!-- End page content -->
+
+<!-- Begin footer -->
+<footer class="footer">
+  <div class="container">
+    <span class="text-muted">Content of page footer &copy; 2019</span>
+  </div>
+</footer>
+<!-- End footer -->
+
+<!-- Custom styles for this template -->
+<link href="css/custom.css" rel="stylesheet">
+
+<!-- END HOME PAGE -->
+
+<!-- INPUTS PAGE -->
+
+<!-- Begin page content -->
+<main role="main" class="container">
+
+  <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Inputs</h1>
+  </div>
+
+  <div class="py-1">
+    <h2 class="h4">Test form</h2>
+    <p>Below is an example form built entirely with Bootstrap's form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+
+    <form class="needs-validation" novalidate action="outputs.html">
+
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label for="input1">Input text</label>
+          <input type="text" class="form-control" id="input1" name="input1" placeholder="Enter a text" value="" required>
+          <div class="invalid-feedback">
+            Input text is required.
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="input2">Input number (optional)</label>
+          <input type="number" class="form-control" id="input2" name="input2" placeholder="Enter a number" value="">
+          <div class="invalid-feedback">
+            Input number is required.
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 mb-3">
+          <label for="input3">Select from options list</label>
+          <select class="custom-select form-control d-block w-100" id="input3" name="input3" required>
+             <option value="">Choose...</option>
+             <option value="1">Option 1</option>
+             <option value="2">Option 2</option>
+             <option value="3">Option 3</option>
+           </select>
+          <div class="invalid-feedback">
+            Select an option from the list.
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 mb-3">
+          <label for="input4">Text area</label>
+          <textarea class="w-100 form-control" id="input4" name="input4" rows="3" required></textarea>
+          <div class="invalid-feedback">
+            Please, add some text to the textarea.
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 mb-3">
+          <label for="fileinput">File input</label>
+          <input type="file" class="form-control-file" id="fileinput" name="fileinput">
+        </div>
+      </div>
+
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="checkbox1" name="checkbox1">
+        <label class="custom-control-label" for="checkbox1">Checkbox optional</label>
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="checkbox2" name="checkbox2" required>
+        <label class="custom-control-label" for="checkbox2">Checkbox mandatory</label>
+      </div>
+
+      <div class="d-block my-3">
+        <div class="custom-control custom-radio">
+          <input id="radio1" name="radiobutton" type="radio" class="custom-control-input" value="1" checked required>
+          <label class="custom-control-label" for="radio1">Option one</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input id="radio2" name="radiobutton" type="radio" class="custom-control-input" value="2" required>
+          <label class="custom-control-label" for="radio2">Option two</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input id="radio3" name="radiobutton" type="radio" class="custom-control-input" value="3" required>
+          <label class="custom-control-label" for="radio3">Option three</label>
+        </div>
+      </div>
+
+      <hr class="mb-4">
+      <button class="btn btn-primary btn-lg btn-block mb-3" type="submit">Submit</button>
+
+    </form>
+
+  </div>
+
+</main>
+<!-- End page content -->
+
+<!-- Custom JS for this template -->
+<script src="js/inputs.js"></script>
+
+<!-- JS code for inputs.js -->
+(function() {
+  'use strict';
+
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+<!-- End JS code for inputs.js -->
+
+<!-- END INPUTS PAGE -->
+
+<!-- OUTPUTS PAGE -->
+
+<!-- Begin page content -->
+<main role="main" class="container">
+  <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Outputs</h1>
+  </div>
+
+  <div class="row border-bottom mb-4 pb-5">
+    <div class="col-md-12 mt-3">
+      <table class="table table-striped " id="table-output">
+        <thead>
+          <tr>
+            <th>field 1</th>
+            <th>field 2</th>
+            <th>field 3</th>
+            <th>field 4</th>
+            <th>field 5</th>
+            <th>field 6</th>
+            <th>field 7</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>24234</td>
+            <td>6456</td>
+            <td>45645</td>
+            <td>456456</td>
+            <td>4645</td>
+            <td>456456</td>
+            <td>0.324234</td>
+          </tr>
+          <tr>
+            <td>244564</td>
+            <td>456456</td>
+            <td>234456</td>
+            <td>456</td>
+            <td>2356234</td>
+            <td>56</td>
+            <td>0.4564564</td>
+          </tr>
+          <tr>
+            <td>787978</td>
+            <td>235247</td>
+            <td>237234</td>
+            <td>2345734</td>
+            <td>34345</td>
+            <td>345345</td>
+            <td>0.345345</td>
+          </tr>
+          <tr>
+            <td>89089</td>
+            <td>56756</td>
+            <td>567567</td>
+            <td>8769</td>
+            <td>567657</td>
+            <td>789789</td>
+            <td>0.342234</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</main>
+<!-- End page content -->
+
+<!-- Datatables styles -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+
+<!-- Datatables JS -->
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+
+<!-- Custom JS for this template -->
+<script src="js/outputs.js"></script>
+
+<!-- JS code for outputs.js -->
+$(document).ready(function() {
+  // loading datatable JS
+  $('#table-output').DataTable();
+});
+<!-- End JS code for outputs.js -->
+
+<!-- OUTPUTS PAGE -->
+
+<!-- SIGN IN -->
+
+<body class="text-center" id="page-signin">
+  <form class="form-signin" action="home.html">
+    <img class="mb-4" src="img/bootstrap-stack.png" alt="" width="72" height="72">
+    <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    <p class="mt-5 mb-3 text-muted">&copy; 2019</p>
+  </form>
+</body>
+
+<!-- END SIGN IN -->
