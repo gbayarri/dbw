@@ -8,7 +8,7 @@ https://docs.google.com/presentation/d/1Q-urJ93FfmmNObfAUt3CsGqB4N1bXHpY3GB7SVpM
 
 ## Usage
 
-Type the next command in a folder in your computer:
+Open your terminal, go to a folder and type the next command:
 
 git clone https://github.com/gbayarri/dbw.git
 
