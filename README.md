@@ -12,6 +12,8 @@ Open your terminal, go to a folder and type the next command:
 
 `git clone https://github.com/gbayarri/dbw.git`
 
+Start with the structure/home.html file and paste the different HTML slices of code from structure/parts.html.
+
 To view the finished version of the microsite, please go to the web/ folder.
 
 ## Credits
