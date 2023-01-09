@@ -12,11 +12,11 @@ Open your terminal, go to a location in you computer and type the next command:
 
 `git clone https://github.com/gbayarri/dbw.git`
 
-The **freelancer** folder contains the *Freelancer* boostrap theme:
+The **freelancer** folder contains the *Freelancer* bootstrap theme:
 
 https://startbootstrap.com/theme/freelancer
 
-The **portfolio** folder contains the customization of the *Freelancer* boostrap theme.
+The **portfolio** folder contains the customization of the *Freelancer* bootstrap theme.
 
 ## Credits
 
