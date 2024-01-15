@@ -4,7 +4,7 @@ Here you have a few files that can be useful to make your first steps in Front-e
 
 For accessing the presentation, please click the following link:
 
-https://docs.google.com/presentation/d/1s5brynnLNj3tqxqOm5UCRcahAt_JQZ__72ZYmph9fE8/edit?usp=sharing
+https://docs.google.com/presentation/d/1rgbnUopqieKkB-oBtdForP30zgGOARk8fM2ydhZPluQ/edit?usp=sharing
 
 ## Usage
 
